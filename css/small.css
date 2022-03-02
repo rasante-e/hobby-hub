@@ -1,0 +1,277 @@
+
+/* @media only screen and (min-device-width: 480px) { *\
+  /* General styles */
+
+.container {
+    display:flex;
+   flex-wrap:wrap;
+    flex-direction:column;
+    width:100%;
+}
+
+.container > * {
+  padding:1em;
+}
+
+
+.flex-item {
+  display:flex;
+}
+
+#main-page {
+  background-image: linear-gradient(black,white);
+}
+
+/*
+.flex-container {
+  display:flex;
+}
+/*
+/* Header Class */
+
+#header-container {
+    display:flex;
+   flex-wrap:wrap;
+    flex-direction:column;
+   /* width:100%; */
+    justify-content:center;
+    align-content:center;
+    text-align:center;
+}
+
+/* Styling for navigation bar and hamburger menu */
+
+/*
+#nav-bar {
+  display:none;
+}
+*/
+
+#menu {
+display: flex;
+flex-flow: row wrap; 
+  justify-content: flex-end;
+}
+
+#burger-menu {
+  /* justify-content:center;
+  align-self:center; */
+  margin:auto;
+  background-color: #3b181f;
+}
+
+#burger-icon {
+  margin:auto;
+  text-align:center;
+}
+
+/*
+#nav-bar {
+  display:none;
+}
+*/
+
+.visible {
+  display: flex;
+}
+
+.hidden {
+  display:none;
+}
+
+
+#nav-bar>ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#nav-bar>ul>li {
+  margin-bottom:0.5em;
+  font-size:18px;
+}
+
+#nav-bar>ul>li:hover {
+  background-color:#3b181f;
+}
+
+#nav-bar>ul>li>a {
+text-decoration:none;
+color:white;
+}
+
+
+#logo {
+  margin:auto;
+  justify-content:center;
+  text-align:center;
+ /* width:350px; */
+}
+
+#logo > img {
+  width:200px;
+}
+
+#titles {
+  flex:100%;
+  margin:1em;
+  text-align:center;
+}
+
+#titles > h1 {
+  font-size: 25px;
+}
+
+#titles > h2 {
+  font-size: 20px;
+}
+
+
+
+/* Style for containers that contain only text */
+
+
+.text-container {
+  display:flex;
+  flex-wrap:wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align:justify;
+  font-size:20px;
+}
+
+
+/* Style for "Click to View Specials" section */
+
+
+#specials {
+ /* display:flex; */
+  flex-wrap:wrap;
+  flex-direction:column;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align:left;
+  padding:1em;
+  border-style: solid; 
+  border-width: 2px; 
+  border-color:black;
+  background-color:rgb(59, 24, 31);
+}
+
+#specials > *{
+display:flex;
+}
+
+#specials > h1 {
+font-size:  20px;
+display:flex;
+color:white;
+}
+
+#sale-image {
+  display:none;
+}
+
+/* Style for actual specials block */
+#deals {
+  /* display:flex; */
+  flex-wrap:wrap;
+  flex-direction:column;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align:center;
+  padding:1em;
+  border-style: solid; 
+  border-width: 5px; 
+  border-color:whitesmoke;
+  background-color:#131e37;
+}
+
+#deals > h1 {
+  color:whitesmoke;
+  font-size:22px;
+}
+
+#deals > h2 {
+color:#989898;
+font-size:18px;
+}
+
+/* Style for each individual special block */
+
+
+.ind-special {
+display:flex;
+}
+
+
+/* Style for the overall Newest Additions section */
+
+#announcement {
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+}
+
+#announcement > h1 {
+  font-size:25px;
+}
+
+#newest > * {
+  display:flex;
+  flex-direction:column;
+}
+
+#newest > h1 {
+  font-size: 23px;
+}
+
+/* Style for each individual product in "Newest Additions" */
+
+.ind-newest {
+  display:flex;
+  margin:1em;
+  margin-top:0px;
+}
+
+.ind-newest > img {
+  max-width:250px;
+}
+
+
+.ind-newest > h2 {
+font-size:20px;
+}
+
+.ind-newest > p{
+  max-width:225px;
+}
+
+
+/* Footer styling */
+footer {
+  display:flex;
+  margin:2em;
+}
+
+
+/* } *\
+
+/* Styling for "Join the Coven" Page */
+#coven-form {
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align:left;
+}
+
+.form-field {
+  margin-bottom:1em;
+}
+
+#congrats {
+  margin-bottom:0.5em;
+}
+
+#name-field {
+  margin-top:2em;
+}

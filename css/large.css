@@ -1,0 +1,96 @@
+@media (min-width:1024px) {
+   
+p {
+    color:blue;
+}
+    
+#logo {
+  width: 350px;
+  margin:auto;
+}
+
+/* Navigation Formatting */
+
+  #nav-bar>ul>li {
+    font-size: 25px;
+  }
+
+
+/* Intro Styling */
+
+#intro {
+  max-width: 60%;
+  margin:auto;
+}
+
+
+#intro > p {
+    margin: 5px;
+    padding:0px;
+}
+
+/* Main body styling */
+
+#specials-additions {
+    display:flex;
+    flex-direction:row;
+    margin-top:1em;
+}
+
+/* Use this to revert back to column 
+#specials-additions {
+    display:flex;
+    flex-direction:column;
+}
+*/
+
+/* Specials styling */
+
+#specials {
+  /* display:flex; */
+    flex-direction:column;
+    flex-wrap:nowrap;
+    width: 75%;
+    justify-content: flex-start;
+    margin:1em;
+    height:600px;
+  }
+  
+  #deals {
+    /* display:flex; */
+      flex-direction:column;
+      flex-wrap:nowrap;
+      width: 75%;
+      justify-content: flex-start;
+      margin:1em;
+      height:600px;
+  }
+
+  #deals > h1 {
+    font-size:30px;
+  }
+  
+  #deals > h2 {
+  font-size:25px;
+  }
+  
+
+  #sale-image {
+    display:flex;
+    height:200px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  /* Newest Additions styling */
+
+  #newest {
+    margin:0px;
+  }
+
+  .ind-newest {
+    width: 200px;
+  }
+
+
+}
