@@ -1,0 +1,61 @@
+/*
+function displayList(array) {
+    var item = "";
+    var i = 0;
+    for (i = 0; i < array.length; i++) {
+        item = array[i];
+        console.log("item \r item.name[i]");
+    }
+}
+*/
+
+
+/*
+const display = {
+    method: "POST",
+
+}
+*/
+
+//Create Express server
+
+/*
+let express = require('express');
+let app = express();
+
+const list= JSON.parse(/assets/list.json);
+*/
+
+/*
+//create application to interact with hobby list
+let hobbyRepo = require("./repos/hobby-repo");
+
+// Use the express Router object
+let router = express.Router();
+
+// Configure middleware to support JSON data parsing in request object
+app.use(express.json());
+*/
+
+function displayList(array) {
+    var i = 0;
+    for (i = 0; i < array.length; i++) {
+        item = array[i];
+        document.getElementById("parse-test").innerHTML = array[i].name;
+        /*
+        console.log(array[i].name);
+        */
+    }
+}
+
+/*
+function displayList(array) {
+    var i = 0;
+    for (i = 0; i < array.length; i++) {
+        item = array[i];
+        document.getElementById("parse-item").innerHTML = array[i].name;
+        /*
+        console.log(array[i].name);
+        */
+    }
+}
